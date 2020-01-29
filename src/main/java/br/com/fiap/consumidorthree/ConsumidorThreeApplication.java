@@ -1,4 +1,4 @@
-package br.com.fiap.java.consumidorthree;
+package br.com.fiap.consumidorthree;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

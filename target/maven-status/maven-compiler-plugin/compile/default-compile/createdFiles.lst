@@ -1,0 +1,8 @@
+br\com\fiap\consumidorthree\config\ConfigMainApp.class
+br\com\fiap\consumidorthree\config\KafkaConfig.class
+br\com\fiap\consumidorthree\services\SomaBolsaFamilia.class
+br\com\fiap\consumidorthree\services\ConsumerService.class
+br\com\fiap\consumidorthree\domain\BolsaFamiliaModel.class
+br\com\fiap\consumidorthree\components\Consumer.class
+br\com\fiap\consumidorthree\components\KafkaConsumer.class
+br\com\fiap\consumidorthree\ConsumidorThreeApplication.class
