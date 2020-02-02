@@ -42,7 +42,7 @@ services:
       - kafka
 
   consumidor-three:
-    image: ronaldoleite/consumer-three:0.0.1
+    image: ronaldoleite/consumer-three:latest
     ports:
       - "8080:8080"
     links:
