@@ -21,7 +21,6 @@ services:
     depends_on:
       - "zookeeper"
 
-
   producer:
     image: tiagokamegasawa/producer:0.0.1
     ports:
