@@ -3,7 +3,7 @@
 ### Objetivo
 - Consumidor de dados do arquivo do bolsa família. 
 Essa aplicação é responsável por receber os registros de um topic do Kafka que recebe informações de um producer responsável por parsear o arquivo. 
-Essa aplicação mostra a quantidade de registros consumidos.
+Essa aplicação mostra a quantidade atual de registros consumidos.
 
    *[quantidade de registros consumidos]*
 

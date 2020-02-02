@@ -1,27 +1,34 @@
 package br.com.fiap.consumidorthree.services;
 
-import br.com.fiap.consumidorthree.domain.BolsaFamiliaModel;
 import org.springframework.stereotype.Service;
 
-import java.math.BigDecimal;
-import java.util.HashMap;
-import java.util.Map;
+import br.com.fiap.consumidorthree.ConsumidorThreeApplication;
+import br.com.fiap.consumidorthree.domain.BolsaFamiliaModel;
 
 @Service
 public class ConsumerService {
 
-  Map<String, SomaBolsaFamilia> valueMapByUF = new HashMap();
+	public void consume(BolsaFamiliaModel model) {
 
-  public void consume(BolsaFamiliaModel model) {
-    String uf = model.getUf();
+		try {
 
-    System.out.println("");
-    System.out.println("<<========================================================================================>>");
+			ConsumidorThreeApplication.actualRecords = ConsumidorThreeApplication.actualRecords + 1;
 
-    System.out.println("Qtde de registros consumidos: " + valueMapByUF.size());
+			System.out.println("");
+			System.out.println(
+					"<<===================================Consumer 3============================================>>");
 
-    System.out.println("<<========================================================================================>>");
-    System.out.println("");
-  }
+			System.out.println("	Qtde ATUAL de registros consumidos no topico: " + ConsumidorThreeApplication.actualRecords);
+
+			System.out.println(
+					"<<========================================================================================>>");
+			System.out.println("");
+
+		} catch (Exception e) {
+			// TODO: handle exception
+			System.out.println("Erro ao consumir mensagem no topico!");
+		}
+
+	}
 
 }
