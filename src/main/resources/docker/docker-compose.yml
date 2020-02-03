@@ -41,8 +41,8 @@ services:
     depends_on:
       - kafka
 
-  consumidor-one:
-    image: ronaldoleite/consumer-three:0.0.1
+  consumidor-three:
+    image: ronaldoleite/consumidor-three:0.0.1
     ports:
       - "8080:8080"
     links:

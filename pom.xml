@@ -60,7 +60,7 @@
 							<goal>repackage</goal>
 						</goals>
 						<configuration>
-							<mainClass>br.com.fiap.consumidorone.ConsumidorThreeApplication</mainClass>
+							<mainClass>br.com.fiap.consumidorthree.ConsumidorThreeApplication</mainClass>
 							<outputDirectory>${project.basedir}/src/main/resources/docker/</outputDirectory>
 						</configuration>
 					</execution>
